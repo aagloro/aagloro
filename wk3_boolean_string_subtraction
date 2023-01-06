@@ -1,0 +1,19 @@
+var fs = require("fs");
+var input = fs.readFileSync(process.stdin.fd, "utf-8").trim().split("\n");
+var a = parseInt(input[0]);
+var b = parseInt(input[1]);
+
+ 
+//write your code below
+
+function checkout(cardBalance, price){
+    if (price > cardBalance) { 
+        return false; 
+    } else { 
+        return cardBalance - price; 
+    }
+}
+
+
+//do not change below, used for testing purposes
+console.log(checkout(a,b,40));
