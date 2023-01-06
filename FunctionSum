@@ -1,0 +1,17 @@
+var fs = require("fs");
+var input = fs.readFileSync(process.stdin.fd, "utf-8").trim().split("\n");
+var a = parseInt(input[0]);
+var b = parseInt(input[1]);
+
+//write your code below
+function sumOfTwo(a, b) {
+ var sum = (a + b); 
+
+     return (sum);
+  
+}
+
+
+
+//do not change. Used for Testing purposes
+console.log(sumOfTwo(a, b));
