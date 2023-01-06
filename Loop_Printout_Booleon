@@ -1,0 +1,15 @@
+var fs = require("fs");
+var input = fs.readFileSync(process.stdin.fd, "utf-8").trim().split("\n");
+var x = input[0];
+ 
+
+//write your code below
+function loopUntilX(x){
+    for(let i = 0; i < x; i++){
+        console.log(i);
+    }
+    return true;
+}
+
+//do not change below, used for testing purposes
+console.log(loopUntilX(x));
