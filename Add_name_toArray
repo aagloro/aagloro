@@ -1,0 +1,18 @@
+var fs = require("fs");
+var input = fs.readFileSync(process.stdin.fd, "utf-8").trim().split("\n");
+var a = parseInt(input[0]);
+ 
+
+let studentList = ["Allen", "Jessica", "Eddie", "Sarah"];
+//write your code here
+
+studentList.push("Mary");
+
+
+// do not change
+// for testing purposes
+function checkArray(){
+    return studentList.sort();
+}
+
+console.log(checkArray());
