@@ -1,0 +1,16 @@
+var fs = require("fs");
+var input = fs.readFileSync(process.stdin.fd, "utf-8").trim().split("\n");
+var a = input[0];
+
+ 
+//write your code below
+function speakFriend(a){
+    if(a == "Mellon"){
+        return "Enter";
+    } 
+    return "Access Denied";
+}
+
+
+//do not change below
+console.log(speakFriend(a));
