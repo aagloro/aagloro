@@ -1,0 +1,16 @@
+var fs = require("fs");
+var input = fs.readFileSync(process.stdin.fd, "utf-8").trim().split("\n");
+ 
+
+//write your code here
+
+function reverseArray(array){
+    return array.reverse();
+}
+
+
+
+// do not change
+// for testing purposes
+
+console.log(reverseArray(input));
