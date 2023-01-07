@@ -1,0 +1,15 @@
+var fs = require("fs");
+var input = fs.readFileSync(process.stdin.fd, "utf-8").trim().split("\n");
+var a = input[0];
+
+ 
+
+
+//write your code below
+function isBlue(var1){
+    return var1.toLowerCase() === "blue";
+}
+
+
+//do not change below, used for testing purposes
+console.log(isBlue(a));
