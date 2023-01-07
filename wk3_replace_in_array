@@ -1,0 +1,14 @@
+var fs = require("fs");
+var attendanceList = [];
+
+// This line will add the test cases to the array
+attendanceList = fs.readFileSync(process.stdin.fd, "utf-8").trim().split("\n");
+
+ 
+//write your code here
+attendanceList[0] = "Steven";
+
+
+
+// this will print the result
+console.log(attendanceList);
