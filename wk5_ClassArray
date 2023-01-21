@@ -18,20 +18,17 @@ console.log("My car is " + myCar.age() + " years old.");
 
 //Class
 
-class Owner {
-    constructor(OwnerName, OwnerYear) {
-      this.name = OwnerName;
-      this.year = OwnerYear;
+class OwnerInfo {
+    constructor(owner, BoughtYear) {
+      this.name = owner;
+      this.year = BoughtYear;
     }
-    age() {
+    OldCar() {
       let date = new Date();
       return date.getFullYear() - this.year;
-      
     }
-        
-        
   }
   
-let OwnerName = 'Amanda' ; 
+  let newCar = new OwnerInfo("Amanda", 2021);
 
-console.log(OwnerName +" has had their car car for " + OwnerCar.age() + " years.");
+console.log("I have owned my car for " + newCar.OldCar() + " years.");
