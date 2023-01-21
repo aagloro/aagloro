@@ -1,0 +1,37 @@
+//Class_Array
+
+class Car {
+    constructor(name, year) {
+      this.name = name;
+      this.year = year;
+    }
+    age() {
+      let date = new Date();
+      return date.getFullYear() - this.year;
+    }
+  }
+  
+  let myCar = new Car("Ford", 2014);
+
+console.log("My car is " + myCar.age() + " years old.");
+
+
+//Class
+
+class Owner {
+    constructor(OwnerName, OwnerYear) {
+      this.name = OwnerName;
+      this.year = OwnerYear;
+    }
+    age() {
+      let date = new Date();
+      return date.getFullYear() - this.year;
+      
+    }
+        
+        
+  }
+  
+let OwnerName = 'Amanda' ; 
+
+console.log(OwnerName +" has had their car car for " + OwnerCar.age() + " years.");
