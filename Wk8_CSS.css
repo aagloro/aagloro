@@ -1,0 +1,154 @@
+#Heading1 { background-color: #EAF0F6;
+  
+    text-align: center;
+    color: #ee8ed0;
+  
+  
+    border: 3px solid #00A4BD;
+  
+  
+    padding: 70px;
+
+}
+
+
+
+
+
+
+#Heading2 { background-color: #EAF0F6;
+  
+    text-align: center;
+    color: #0b0a0b;
+  
+  
+    border: 3px solid #00A4BD;
+  
+  
+    padding: 25px;
+
+}
+
+
+
+#Heading3 { background-color: #EAF0F6;
+  
+    text-align: center;
+    color: #4eaa56;
+  
+    border: 3px solid #7641d8;
+  
+  
+    padding: 20px;
+
+}
+
+
+
+div {
+    
+
+    background-color: #cf3783;
+  
+  
+    color: #33475B;
+  
+  
+    border: 3px solid #00A4BD;
+  
+  
+    padding: 5px;
+  
+  
+  }
+  
+  
+
+ {
+        color: red;
+      }
+      
+      /* visited link */
+      a:visited {
+        color: green;
+      }
+      
+      /* mouse over link */
+      a:hover {
+        color: hotpink;
+      }
+      
+      /* selected link */
+      a:active {
+        color: blue;
+      }
+
+
+
+
+br { 
+
+}
+
+ol { background: #ff9999;
+    padding: 20px;
+
+}
+
+ol li { 
+
+}
+
+ul { 
+    background: #3399ff;
+    padding: 20px;
+}
+
+ul li { 
+    background: #cce5ff;
+    color: rgb(226, 114, 161);
+    margin: 5px;
+}
+
+table { 
+    background: #8ce8ce;
+    color: rgb(41, 97, 66);
+    margin: 5px;
+}
+
+table tbody { 
+    background: #cce5ff;
+    color: rgb(10, 10, 16);
+    margin: 5px;
+}
+
+table tbody tr { 
+
+}
+
+table tbody tr th { 
+
+}
+
+h5 { 
+
+}
+
+form { 
+
+}
+
+form input { 
+    width: 40%;
+    height: 15px;
+    padding: 12px 20px;
+    box-sizing: border-box;
+    border: 2px solid #ccc;
+    border-radius: 4px;
+    background-color: #f8f8f8;
+    resize: inline;
+}
+
+form br { 
+
+}
